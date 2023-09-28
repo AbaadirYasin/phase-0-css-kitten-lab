@@ -1,40 +1,15 @@
-html {
-  background: url(../images/beautiful-day.jpg) no-repeat top center;
-}
-
-img {
+#wheelbarrow {
+  background-image: url('path/to/wheelbarrow-image.jpg'); /* Specify the path to your wheelbarrow image */
+  background-size: cover;
+  width: 400px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
   position: relative;
-  z-index: 11;
-  cursor: pointer;
 }
 
-.wrapper {
-  position: relative;
-  width: 960px;
-  height: 100vh;
-  margin: 0 auto;
-}
-
-#wheelbarrow, #wheelbarrow-foreground {
-  margin-left: 80px;
-  width: 688px;
-  height: 514px;
-}
-
-#wheelbarrow { 
-  position: relative;
-  background: url(../images/wheelbarrow.png) no-repeat;
-  z-index: 0;
-  top: 220px;
-}
 #wheelbarrow-foreground {
-  pointer-events: none;
+  background-color: #eee; /* Background color for the foreground */
+  width: 100%;
+  height: 50px; /* Adjust as needed */
   position: absolute;
-  background: url(../images/wheelbarrow-foreground.png) no-repeat;
-  z-index: 10;
-  top: 220px;
-}
-
-#basket, #ball {
-  display: inline;
+  bottom: 0;
 }
